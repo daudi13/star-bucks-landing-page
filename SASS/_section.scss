@@ -34,4 +34,24 @@ section {
             }
         }
     }
+
+    .socials {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        li + li {
+            margin-top: 5px;
+        }
+
+        &__ntw a {
+            display: inline-block;
+            transform: scale(0.6);
+            transition: 0.5s;
+
+            &:hover {
+                transform: scale(0.8);
+            }
+        }
+    }
 }
