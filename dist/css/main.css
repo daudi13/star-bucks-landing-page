@@ -39,6 +39,29 @@ section {
   background: #fff;
 }
 
+section .thumbnails {
+  position: absolute;
+  left: 50%;
+  bottom: 20px;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+section .thumbnails li + li {
+  margin-left: 3rem;
+}
+
+section .thumbnails__items {
+  display: inline-block;
+}
+
+section .thumbnails__items img {
+  width: 70px;
+}
+
 header {
   position: absolute;
   top: 0;
