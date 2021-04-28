@@ -56,10 +56,18 @@ section .thumbnails li + li {
 
 section .thumbnails__items {
   display: inline-block;
+  cursor: pointer;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
 }
 
 section .thumbnails__items img {
   width: 70px;
+}
+
+section .thumbnails__items:hover {
+  -webkit-transform: translateY(-20px);
+          transform: translateY(-20px);
 }
 
 header {
