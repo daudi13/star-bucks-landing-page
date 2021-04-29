@@ -137,7 +137,7 @@ section {
 
 section .thumbnails {
   position: absolute;
-  left: 50%;
+  left: 30%;
   bottom: 20px;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
