@@ -1,0 +1,15 @@
+
+%part-flex {
+    display: flex;
+    align-items: center;
+}
+
+%real-flex {
+    @extend %part-flex;
+    justify-content: space-between;
+}
+
+%center-flex {
+    @extend %part-flex;
+    justify-content: center;
+}

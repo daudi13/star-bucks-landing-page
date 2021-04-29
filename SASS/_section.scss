@@ -3,9 +3,7 @@ section {
     width: 100%;
     position: relative;
     padding: 100px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    @extend %real-flex;
     background: #fff;
 
     .thumbnails {
@@ -36,9 +34,9 @@ section {
     }
 
     .socials {
-        display: flex;
+        @extend %part-flex;
         flex-direction: column;
-        align-items: center;
+        
 
         li + li {
             margin-top: 5px;
